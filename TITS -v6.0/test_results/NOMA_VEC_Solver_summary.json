@@ -1,0 +1,29 @@
+[
+  {
+    "slots": 5,
+    "C_mean": 0.8124811640940577,
+    "C_std": 0.2401356807666757,
+    "E_mean": 4.062405820470287,
+    "Energy_per_task": 0.27082705469801915,
+    "Energy_per_bit": 1.315381218381363e-07,
+    "EE_proxy_bit_per_J": 7602358.814508131,
+    "avg_delay_mean": 2.0405304753999753,
+    "avg_delay_median": 2.071819169355347,
+    "delay_p95": 2.2594142217327877,
+    "SLA_violation_rate": 1.0,
+    "Avg_queue": 0.0,
+    "Acc_rate": 1.0,
+    "Drop_rate": 0.0,
+    "Handover_count_total": 5,
+    "DecisionTime_ms_mean": 10.62917709350586,
+    "DecisionTime_ms_max": 28.875112533569336,
+    "Jain_mean": 0.0,
+    "CloudRatio": 0.0,
+    "E_tx_total": 4.061740458369677,
+    "E_srv_total": 0.0006653621006107296,
+    "total_runtime_s": 0.05396223068237305,
+    "solver": "solvers.NOMA_VEC_Solver.NOMA_VEC_Solver",
+    "run": 1,
+    "C_mean_avg_delay_ratio": 0.3981715411208445
+  }
+]

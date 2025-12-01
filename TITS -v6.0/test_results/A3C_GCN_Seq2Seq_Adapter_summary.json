@@ -1,0 +1,29 @@
+[
+  {
+    "slots": 5,
+    "C_mean": 0.1134425872973546,
+    "C_std": 0.03309912478788815,
+    "E_mean": 0.567212936486773,
+    "Energy_per_task": 0.03781419576578486,
+    "Energy_per_bit": 1.8464495468220667e-08,
+    "EE_proxy_bit_per_J": 54157992.116335094,
+    "avg_delay_mean": 0.22748516859470916,
+    "avg_delay_median": 0.24786193718112653,
+    "delay_p95": 0.28228680253017385,
+    "SLA_violation_rate": 0.6,
+    "Avg_queue": 0.0,
+    "Acc_rate": 1.0,
+    "Drop_rate": 0.0,
+    "Handover_count_total": 0,
+    "DecisionTime_ms_mean": 0.01049041748046875,
+    "DecisionTime_ms_max": 0.016689300537109375,
+    "Jain_mean": 0.0,
+    "CloudRatio": 0.0,
+    "E_tx_total": 0.5672129214867729,
+    "E_srv_total": 1.5000000000000002e-08,
+    "total_runtime_s": 0.0010454654693603516,
+    "solver": "solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter",
+    "run": 1,
+    "C_mean_avg_delay_ratio": 0.4986812458946084
+  }
+]

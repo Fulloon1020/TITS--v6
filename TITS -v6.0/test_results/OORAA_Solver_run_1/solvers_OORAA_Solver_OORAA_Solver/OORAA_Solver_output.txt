@@ -1,0 +1,132 @@
+=== STDOUT ===
+Executing main_module.main()...
+
+####################################################################################################
+Starting solver 1/1: solvers.OORAA_Solver.OORAA_Solver
+####################################################################################################
+
+Successfully imported VEC_Environment from solvers.environment
+Creating environment...
+Environment created with config: {}
+Loading solver from: solvers.OORAA_Solver.OORAA_Solver
+Solver loaded successfully: OORAA_Solver
+Running simulation...
+[solvers.OORAA_Solver.OORAA_Solver] slot 1/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=69.06
+[solvers.OORAA_Solver.OORAA_Solver] slot 2/5  avgQ_snapshot=0.000  last_cost=2.8560  solve_ms=90.08
+[solvers.OORAA_Solver.OORAA_Solver] slot 3/5  avgQ_snapshot=0.000  last_cost=0.0287  solve_ms=82.00
+[solvers.OORAA_Solver.OORAA_Solver] slot 4/5  avgQ_snapshot=0.000  last_cost=1.0204  solve_ms=68.20
+[solvers.OORAA_Solver.OORAA_Solver] slot 5/5  avgQ_snapshot=0.000  last_cost=0.2032  solve_ms=65.65
+Simulation completed for solver: solvers.OORAA_Solver.OORAA_Solver
+
+Solver solvers.OORAA_Solver.OORAA_Solver finished 5 slots in 0.38s
+Saved per-slot minimal CSV to test_results\OORAA_Solver_run_1\solvers_OORAA_Solver_OORAA_Solver\per_slot_minimal.csv
+Saved summary.json to test_results\OORAA_Solver_run_1\solvers_OORAA_Solver_OORAA_Solver
+
+════════════════════════════════════════════════════════════════════════════════════════════
+[107m[30m[1m                     🔥 Solver 1/1: solvers.OORAA_Solver.OORAA_Solver 🔥                     [0m
+════════════════════════════════════════════════════════════════════════════════════════════
+
+[96m========== 基本信息 Basic Info ==========[0m
+  • 时隙数 Slots                      :   5 
+  • 总运行时长 Runtime                  :   0.376 s
+
+[96m========== 成本与能耗 Cost & Energy ==========[0m
+  • 平均系统成本 C_mean                  :   0.821648 
+  • 成本标准差 C_std                    :   1.082981 
+  • 能耗总计 E_total                   :   4.108242 
+  • Tx 能耗                          :   4.108242 
+  • CPU 能耗                         :   0.000000 
+  • 能耗/任务                          :   0.513530 
+  • 能耗/bit                         :   0.000000225 
+  • 能效 EE(bit/J)                   :   4448485.306907 
+
+[96m========== 端到端时延 Delay ==========[0m
+  • 平均时延 mean                      :   0.870181 s
+  • 中位数时延 median                   :   0.240090 s
+  • 95% 时延                         :   1.021111 s
+  • 99% 时延                         :   -
+  • SLA违约率                         :   0.8000 
+
+[96m========== 服务质量 QoS ==========[0m
+  • 平均队列长度                         :   0.000000 
+  • 接收率 Acc_rate                   :   0.5333 
+  • 丢弃率 Drop_rate                  :   0.9333 
+
+[96m========== 资源利用率 Resource Utilization ==========[0m
+  • CPU 使用率                        :   -
+  • 带宽使用率                          :   -
+  • Cloud 使用率                      :   0.000000 
+
+[96m========== 移动性 Mobility ==========[0m
+  • 切换次数 Handover                  :   5 
+  • 迁移频率                           :   -
+  • 迁移成本                           :   -
+
+[96m========== 可用性 Availability ==========[0m
+  • Availability                   :   -
+
+[96m========== 吞吐量 Throughput ==========[0m
+  • 有效比特数                          :   -
+
+[96m========== 复杂度 Complexity ==========[0m
+  • 平均 Ops                         :   -
+  • Ops 总量                         :   -
+
+[96m========== 决策性能 Runtime ==========[0m
+  • 平均决策时间                         :   74.998 ms
+  • 最大决策时间                         :   90.075 ms
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+
+All solvers done. Logs in: test_results\OORAA_Solver_run_1
+main_module.main() executed successfully
+
+
+=== STDERR ===
+2025-11-30 23:48:32,878 - solvers.OORAA_Solver - INFO - OORAA_Solver初始化完成，初始V=1.0e+11，性能偏好=balanced
+2025-11-30 23:48:32,947 - solvers.OORAA_Solver - DEBUG - Assignment: [0, np.int64(0), 0]
+2025-11-30 23:48:32,947 - solvers.OORAA_Solver - DEBUG - Power: [0.         0.00012917 0.        ]
+2025-11-30 23:48:32,947 - solvers.OORAA_Solver - DEBUG - Bandwidth: [[0. 0.]
+ [1. 0.]
+ [0. 0.]]
+2025-11-30 23:48:32,947 - solvers.OORAA_Solver - DEBUG - Frequency: [[5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]]
+2025-11-30 23:48:32,947 - solvers.OORAA_Solver - INFO - 时间槽1求解完成：EE=3.950e-11 J/bit，时延=333.333 ms，当前V=1.0e+11
+2025-11-30 23:48:33,037 - solvers.OORAA_Solver - DEBUG - Assignment: [np.int64(1), 0, np.int64(0)]
+2025-11-30 23:48:33,037 - solvers.OORAA_Solver - DEBUG - Power: [1. 0. 1.]
+2025-11-30 23:48:33,037 - solvers.OORAA_Solver - DEBUG - Bandwidth: [[0. 1.]
+ [0. 0.]
+ [1. 0.]]
+2025-11-30 23:48:33,037 - solvers.OORAA_Solver - DEBUG - Frequency: [[0.000e+00 5.375e+08]
+ [5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]]
+2025-11-30 23:48:33,037 - solvers.OORAA_Solver - INFO - 时间槽2求解完成：EE=2.644e-07 J/bit，时延=656.405 ms，当前V=1.0e+11
+2025-11-30 23:48:33,119 - solvers.OORAA_Solver - DEBUG - Assignment: [0, np.int64(0), 0]
+2025-11-30 23:48:33,119 - solvers.OORAA_Solver - DEBUG - Power: [0. 1. 0.]
+2025-11-30 23:48:33,119 - solvers.OORAA_Solver - DEBUG - Bandwidth: [[0. 0.]
+ [1. 0.]
+ [0. 0.]]
+2025-11-30 23:48:33,120 - solvers.OORAA_Solver - DEBUG - Frequency: [[5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]]
+2025-11-30 23:48:33,120 - solvers.OORAA_Solver - INFO - 时间槽3求解完成：EE=2.322e-07 J/bit，时延=980.212 ms，当前V=1.0e+11
+2025-11-30 23:48:33,188 - solvers.OORAA_Solver - DEBUG - Assignment: [0, np.int64(0), np.int64(1)]
+2025-11-30 23:48:33,188 - solvers.OORAA_Solver - DEBUG - Power: [0. 1. 1.]
+2025-11-30 23:48:33,188 - solvers.OORAA_Solver - DEBUG - Bandwidth: [[0. 0.]
+ [1. 0.]
+ [0. 1.]]
+2025-11-30 23:48:33,188 - solvers.OORAA_Solver - DEBUG - Frequency: [[5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]
+ [0.000e+00 5.375e+08]]
+2025-11-30 23:48:33,188 - solvers.OORAA_Solver - INFO - 时间槽4求解完成：EE=1.883e-07 J/bit，时延=1298.850 ms，当前V=1.0e+11
+2025-11-30 23:48:33,253 - solvers.OORAA_Solver - DEBUG - Assignment: [np.int64(1), np.int64(0), 0]
+2025-11-30 23:48:33,253 - solvers.OORAA_Solver - DEBUG - Power: [1. 1. 0.]
+2025-11-30 23:48:33,253 - solvers.OORAA_Solver - DEBUG - Bandwidth: [[0. 1.]
+ [1. 0.]
+ [0. 0.]]
+2025-11-30 23:48:33,254 - solvers.OORAA_Solver - DEBUG - Frequency: [[0.000e+00 5.375e+08]
+ [5.375e+08 0.000e+00]
+ [5.375e+08 0.000e+00]]
+2025-11-30 23:48:33,254 - solvers.OORAA_Solver - INFO - 时间槽5求解完成：EE=2.433e-07 J/bit，时延=1620.808 ms，当前V=1.0e+11

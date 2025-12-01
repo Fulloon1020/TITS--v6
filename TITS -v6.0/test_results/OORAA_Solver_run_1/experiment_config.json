@@ -1,0 +1,7 @@
+{
+  "solver": "solvers.OORAA_Solver.OORAA_Solver",
+  "run": 1,
+  "slots": 5,
+  "output_dir": "test_results\\OORAA_Solver_run_1",
+  "timestamp": "2025-11-30 23:48:32"
+}

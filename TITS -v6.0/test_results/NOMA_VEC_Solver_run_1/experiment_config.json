@@ -1,0 +1,7 @@
+{
+  "OUT_DIR": "test_results\\NOMA_VEC_Solver_run_1",
+  "SLOTS": 5,
+  "SOLVERS_TO_RUN": [
+    "solvers.NOMA_VEC_Solver.NOMA_VEC_Solver"
+  ]
+}

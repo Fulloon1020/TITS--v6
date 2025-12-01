@@ -1,0 +1,23 @@
+{
+  "num_solvers": 5,
+  "solvers": [
+    "solvers.OLMA_Solver_perfect.OLMA_Solver",
+    "solvers.NOMA_VEC_Solver.NOMA_VEC_Solver",
+    "solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter",
+    "solvers.OORAA_Solver.OORAA_Solver",
+    "solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver"
+  ],
+  "num_runs_per_solver": 1,
+  "num_slots_per_experiment": 5,
+  "total_runs": 5,
+  "total_results_collected": 5,
+  "output_dir": "test_results",
+  "metrics_collected": [
+    "长期平均系统成本",
+    "平均端到端时延",
+    "队列稳定性",
+    "单时隙决策时延",
+    "成本-时延权衡指标"
+  ],
+  "timestamp": "2024-01-01 00:00:00"
+}

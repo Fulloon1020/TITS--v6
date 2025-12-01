@@ -1,0 +1,27 @@
+{
+  "solver": "OORAA_Solver",
+  "runs": [
+    {
+      "run": 1,
+      "metrics": {
+        "C_mean": 0.028465,
+        "avg_delay_mean": 4.987342,
+        "DecisionTime_ms_mean": 0.378,
+        "SLA_violation_rate": 0.0,
+        "task_completion_rate": 1.0
+      }
+    }
+  ],
+  "average_metrics": {
+    "C_mean": 0.028465,
+    "avg_delay_mean": 4.987342,
+    "DecisionTime_ms_mean": 0.378,
+    "SLA_violation_rate": 0.0,
+    "task_completion_rate": 1.0
+  },
+  "metadata": {
+    "total_runs": 1,
+    "timestamp": "2024-01-01 00:00:00",
+    "config": "experiment_config.json"
+  }
+}

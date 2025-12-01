@@ -180,7 +180,16 @@ def run_sensitivity_analysis():
                 # 如果运行失败，可以添加一个 NaN 或 0.0 来保持列表长度一致
                 results.append(0.0)
 
-                # 绘图 - 此时 results 已经被定义和填充
+        # === 保存敏感度扫描数据（新增） ===
+        df = pd.DataFrame({
+            key: values,
+            "C_mean": results
+        })
+        csv_path = os.path.join(PLOT_DIR, f"sensitivity_{key}.csv")
+        df.to_csv(csv_path, index=False)
+        print(f"  -> Saved data: {csv_path}")
+
+        # 绘图 - 此时 results 已经被定义和填充
         plt.figure(figsize=(7, 5))
         # 绘图代码可以正常运行
         plt.plot(values, results, marker='o', linewidth=2, color='#1f77b4', label='Avg Cost')

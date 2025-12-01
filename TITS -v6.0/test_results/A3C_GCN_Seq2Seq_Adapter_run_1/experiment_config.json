@@ -1,0 +1,7 @@
+{
+  "OUT_DIR": "test_results\\A3C_GCN_Seq2Seq_Adapter_run_1",
+  "SLOTS": 5,
+  "SOLVERS_TO_RUN": [
+    "solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter"
+  ]
+}

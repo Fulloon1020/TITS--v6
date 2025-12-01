@@ -365,8 +365,13 @@ class OORAA_Solver(BaseSolver):
             A = np.zeros(self.U)
             for u in range(self.U):
                 if u < len(tasks):
-                    # 从任务字典中提取计算量（假设任务的计算量信息在'Cv'字段中）
-                    A[u] = float(tasks[u].get('Cv', np.random.uniform(self.A_min, self.A_max)))
+                    # 处理任务可能是浮点数或字典的情况
+                    if isinstance(tasks[u], dict):
+                        # 如果是字典，使用.get()方法
+                        A[u] = float(tasks[u].get('Cv', np.random.uniform(self.A_min, self.A_max)))
+                    else:
+                        # 如果是浮点数或其他类型，直接使用
+                        A[u] = float(tasks[u])
                 else:
                     # 如果没有足够的任务信息，使用随机值
                     A[u] = np.random.uniform(self.A_min, self.A_max)

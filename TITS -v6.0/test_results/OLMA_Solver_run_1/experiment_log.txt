@@ -1,0 +1,17 @@
+开始运行求解器: solvers.OLMA_Solver_perfect.OLMA_Solver
+运行索引: 1
+时隙数量: 5
+开始时间: 2025-11-30 23:38:24
+main模块当前配置:
+  OUT_DIR: logs
+  SLOTS: 5
+  SOLVERS_TO_RUN: ['solvers.OLMA_Solver_perfect.OLMA_Solver', 'solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter', 'solvers.NOMA_VEC_Solver.NOMA_VEC_Solver', 'solvers.OORAA_Solver.OORAA_Solver', 'solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver']
+main函数执行成功完成
+
+找到的文件列表:
+  test_results\OLMA_Solver_run_1\experiment_config.json
+  test_results\OLMA_Solver_run_1\experiment_log.txt
+  test_results\OLMA_Solver_run_1\solvers_OLMA_Solver_perfect_OLMA_Solver\OLMA_Solver_output.txt
+  test_results\OLMA_Solver_run_1\solvers_OLMA_Solver_perfect_OLMA_Solver\per_slot_minimal.csv
+  test_results\OLMA_Solver_run_1\solvers_OLMA_Solver_perfect_OLMA_Solver\summary.json
+成功读取并处理summary.json

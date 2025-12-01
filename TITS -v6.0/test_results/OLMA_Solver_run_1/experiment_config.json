@@ -1,0 +1,7 @@
+{
+  "OUT_DIR": "test_results\\OLMA_Solver_run_1",
+  "SLOTS": 5,
+  "SOLVERS_TO_RUN": [
+    "solvers.OLMA_Solver_perfect.OLMA_Solver"
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "slots": 5,
+    "C_mean": 0.012422006409785608,
+    "C_std": 0.0034324528181040644,
+    "E_mean": 0.062110032048928045,
+    "Energy_per_task": 0.0041406688032618695,
+    "Energy_per_bit": 2.3352840684967377e-09,
+    "EE_proxy_bit_per_J": 428213429.5737807,
+    "avg_delay_mean": 0.07711003202492803,
+    "avg_delay_median": 0.07849929483172335,
+    "delay_p95": 0.08203515086961194,
+    "SLA_violation_rate": 0.0,
+    "Avg_queue": 0.0,
+    "Acc_rate": 1.0,
+    "Drop_rate": 0.0,
+    "Handover_count_total": 2,
+    "DecisionTime_ms_mean": 0.19483566284179688,
+    "DecisionTime_ms_max": 0.3147125244140625,
+    "Jain_mean": 0.0,
+    "CloudRatio": 0.0,
+    "E_tx_total": 0.06211003202492804,
+    "E_srv_total": 2.4e-11,
+    "total_runtime_s": 0.0018723011016845703,
+    "solver": "solvers.OLMA_Solver_perfect.OLMA_Solver",
+    "run": 1,
+    "C_mean_avg_delay_ratio": 0.161094556487408
+  }
+]
